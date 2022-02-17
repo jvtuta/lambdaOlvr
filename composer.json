@@ -1,0 +1,23 @@
+{
+    "name": "jvtuta/lambdaolvr",
+    "description": "Framework MVC destinado a criação de APIs rest",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "João Victor de Oliveira",
+            "email": "joaovoliveira2399@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "vendor\\": "vendor/",
+            "LambdaOlvr\\": "vendor/lambdaolvr",
+            "App\\": "app/",
+            "Routes\\": "routes/"
+            
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.21"
+    }
+}
